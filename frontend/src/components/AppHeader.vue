@@ -1,34 +1,37 @@
 <template>
-    <header class="header">
-      <h2>NLPAutomaticTranslator</h2>
-      <h5>traduzioni veloci, precise e sicure</h5>
-      <button class="button">Version 0.0.18</button>
-    </header>
-  </template>
+  <header class="header">
+    <h4><br>NLPAutomaticTranslator</h4>
+    <p>traduzioni veloci, precise e sicure</p>
+  </header>
+</template>
   
-  <script>
+<script>
   export default {
     name: 'AppHeader'
   };
-  </script>
+</script>
   
-  <style scoped>
-  .header {
-    background-color: #16233B;
-    padding: 2rem;
-    color: #ffffff;
-    text-align: center;
-    border-radius: 20px;
-    margin-bottom: 50px;
-  }
-  .button {
-    background-color: #0052cc;
-    color: white;
-    border: none;
-    margin-top: 20px;
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    cursor: pointer;
-  }
-  </style>
+<style scoped>
+.header {
+  justify-content: center;
+  padding: 1rem;
+  color: #16233B;
+  text-align: center;
+  border-radius: 20px;
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  display: contents;
+}
+.button {
+  background-color: #0052cc;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+</style>
   
