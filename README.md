@@ -25,7 +25,7 @@ Per eseguire il progetto in locale, segui i seguenti passi:
 
 1. Clona il repository del progetto:
     ```sh
-    git clone https://github.com/Mdv18/nlp-automatic-translator-processing.git
+    git clone -b master https://github.com/Mdv18/nlp-automatic-translator-processing.git
     ```
 
 2. Naviga nella directory del frontend e installa le dipendenze:
